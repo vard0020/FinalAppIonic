@@ -10,6 +10,7 @@ angular.module('starter.searchControllers', [])
 		} else {
 
 			$log.debug("User is not logged In - Redirect to Menu");
+			alert("Please login to search products");
 			$location.path("/app");
 		}
 	});
